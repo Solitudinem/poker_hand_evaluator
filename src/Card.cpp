@@ -1,6 +1,6 @@
 #include "Card.h"
 
-Card::Card() : suit(-1), number(-1) {}
+Card::Card() : suit(0), number(0) {}
 Card::Card(const Card& other) : suit(other.suit), number(other.number), isOwn(other.isOwn) {}
 Card::Card(int inputSuit, int inputNumber) : isOwn(false)
 {
